@@ -1,32 +1,201 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  background-color: #e8edfd;
   display: flex;
   flex-direction: column;
+}
+
+/*     header      */
+
+.Topheader {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #5786d1;
+}
+.Facebook {
+  font-size: 25px;
   color: white;
+  margin-left: 100px;
+  margin-top: 1.5px;
+  margin-bottom: 1.5px;
+  cursor: pointer;
+}
+.Search {
+  border: white;
+  padding: 2.55px 4px;
+  cursor: pointer;
+  margin-right: 265px;
+}
+.Profile, .Home, .Messages, .Notification, .Settings {
+  background-color: #5786d1;
+  color: white;
+  border-color: #5786d1;
+  font-size: 17px;
+  cursor: pointer;
+}
+.Profile:hover {
+  background-color: #4d7cc6;
+  border-color: #4d7cc6;
+}
+.Home:hover {
+  background-color: #4d7cc6;
+  border-color: #4d7cc6;
+}
+.Notification:hover {
+  background-color: #4d7cc6;
+  border-color: #4d7cc6;
+}
+.Settings:hover {
+  background-color: #4d7cc6;
+  border-color: #4d7cc6;
+}
+.Messages:hover {
+  background-color: #4d7cc6;
+  border-color: #4d7cc6;
 }
 
-.App-link {
-  color: #61dafb;
+/*    profile    */
+
+
+.sectionProfile {
+  background-image: url(./components/images/background.jpg);
+  height: 450px;
+  width: 700px;
+  background-size: cover;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 5px;
+  background-position: bottom;
+  border: 0px;
+  box-shadow: 0 0 10px #777777;
+}
+.Name {
+  position: relative;
+  font-size: 30px;
+  top: 30px;
+  left: 230px;
+  color: white;
+  cursor: pointer;
+}
+.profilePic {
+  margin-left: 5px;
+  position: relative;
+  top: 110px;
+}
+.profileBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: white;
+  border: white;
+  padding: 15px;
+  position: relative;
+  top: 20px;
+
+}
+.Timeline, .About, .Friends, .Photos, .More {
+  margin: 8px;
+  font-size: 14px;
+  font-family: arial black;
+  color: #5786d1;
+  background-color: white;
+  border: white;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*      newpost       */
+
+.textpost {
+  position: relative;
+  top: 30px;
+  left: 365px;
+}
+.postbtn {
+  position: relative;
+  top: 30px;
+  left: 365px;
+}
+.Createbtn, .Photobtn, .Livebtn, .Eventsbtn {
+  font-family: arial black;
+  color: #5786d1;
+  cursor: pointer;
+  background-color: white;
+  padding: 4px;
+}
+
+
+/*        post          */
+
+.postpostpost{
+  margin-top: 25px;
+}
+.postpost {
+  background-color: white;
+  margin-left: 365px;
+  margin-right: 473px;
+  box-shadow: 0 0 3px #777777;
+}
+.postname {
+  color: #5786d1;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.postdate {
+  color: darkgray;
+  font-size: 10px;
+  margin-left: 5px;
+  position: relative;
+  bottom: 8px;
+}
+.postlike, .postcomment, .postshare, .postreport {
+  color: darkgray;
+  font-family: arial black;
+  font-size: 13px;
+  cursor: pointer;
+  border-color: white;
+}
+.commentbox {
+  margin-left: 5px;
+}
+.postheader {
+  position: relative;
+  top: 5px;
+}
+h1, p {
+  font-size: 18px;
+  margin-left: 5px;
+}
+.hastags {
+  color: #5786d1;
+}
+.picpic {
+  margin-left: 40px;
+}
+.picpicpic {
+  margin-left: 80px;
+}
+.scott {
+  margin-left: 35px;
+}
+
+/*      footer        */
+
+.footer {
+  margin-top: 50px;
+  background-color: #5786d1;
+}
+.fBtn1, .fBtn2, .fBtn3, .fBtn4 {
+  background-color: #5786d1;
+  border-color: #5786d1;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+  margin-top: 7px;
+}
+.footerbtn {
+  margin-left: 280px;
+}
+.copyright {
+  margin-left: 530px;
 }
